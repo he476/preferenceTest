@@ -1,7 +1,8 @@
   
 # preferenceTest
 ## 使用PreferenceFragment实现设置页面<br>
-![image](https://github.com/he476/preferenceTest/blob/master/images/6.JPG =200x)<br><br>
+<img src="https://github.com/he476/preferenceTest/blob/master/images/6.JPG" width="375"/>
+![image](https://github.com/he476/preferenceTest/blob/master/images/6.JPG)<br><br>
 ## 实现效果
 ![image](https://github.com/he476/preferenceTest/blob/master/images/1.png)<br><br>
 ### 使用 XML 文件定义设置的集合:<br>
