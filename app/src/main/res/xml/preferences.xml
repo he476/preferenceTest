@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <PreferenceCategory
+        android:title="In-Line preference"
+        android:key="pc_1">
+
+        <CheckBoxPreference
+            android:key="pref_cb"
+            android:title="Checkbox preference"
+            android:summary="this is a checkbox"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Dialog-based preference"
+        android:key="pc_2">
+        <EditTextPreference
+            android:key="pref_et"
+            android:title="Edit Text preference"
+            android:summary="an example that uses an edit text diglog"
+            />
+        <ListPreference
+            android:key="pref_list"
+            android:title="List preference"
+            android:summary="an example that uses a list dialog"
+            android:entries="@array/choose"
+            android:entryValues="@array/chooseValue"
+            android:dialogTitle="Choose one">
+        </ListPreference>
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="pc_3"
+        android:title="Launch preference">
+        <PreferenceScreen
+            android:key="pref_screen"
+            android:persistent="false"
+            android:summary="shows another screen of preferences"
+            android:title="Screen preference">
+            <CheckBoxPreference
+                android:key="pref_cb2"
+                android:summary="@string/pref_cb2_summary" />
+        </PreferenceScreen>
+
+        <Preference
+            android:summary="@string/pref_intent_summary"
+            android:title="Intent preference">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/he476" />
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="pc_4"
+        android:title="Preference attribute">
+        <CheckBoxPreference
+            android:key="pref_cb3"
+            android:title="Parent checkbox preference"
+            android:summary="this is visually a parent"
+            android:defaultValue="false"
+            />
+        <CheckBoxPreference
+            android:key="pref_cb4"
+            android:title="Child checkbox preference"
+            android:summary="this is visually a child"
+            android:dependency="pref_cb3"
+            />
+    </PreferenceCategory>
+</PreferenceScreen>
