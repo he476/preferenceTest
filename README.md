@@ -1,3 +1,4 @@
+
 # preferenceTest
 ## 使用PreferenceFragment实现设置页面<br>
 ![image](https://github.com/he476/preferenceTest/blob/master/images/6.JPG)<br><br>
@@ -18,6 +19,7 @@
 
 <br>
 ### CheckBoxPreference的实现<br>
+
 ```
 <PreferenceCategory
         android:title="In-Line preference"
@@ -32,6 +34,7 @@
     </PreferenceCategory>
 ```
 <br>
+
 ### Dialog-based preferences:<br>
 
 EditTextPreference<br>
