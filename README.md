@@ -17,7 +17,7 @@
 
 
 <br>
-### CheckBoxPreference的实现
+### CheckBoxPreference的实现<br>
 ```
 <PreferenceCategory
         android:title="In-Line preference"
@@ -31,7 +31,9 @@
 
     </PreferenceCategory>
 ```
+<br>
 ### Dialog-based preferences:<br>
+
 EditTextPreference<br>
 ListPreference<br>
 ```
