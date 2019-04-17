@@ -16,10 +16,6 @@
 ```
 <br>
 
-
-<br>
-### CheckBoxPreference的实现<br>
-
 ```
 <PreferenceCategory
         android:title="In-Line preference"
@@ -31,7 +27,7 @@
             android:summary="this is a checkbox"
             android:defaultValue="true" />
 
-    </PreferenceCategory>
+</PreferenceCategory>
 ```
 <br>
 
