@@ -16,6 +16,7 @@
 ```
 <br>
 
+### CheckBoxPreference的实现
 ```
 <PreferenceCategory
         android:title="In-Line preference"
