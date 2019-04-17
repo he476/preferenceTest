@@ -1,7 +1,7 @@
   
 # preferenceTest
 ## 使用PreferenceFragment实现设置页面<br>
-<img src="https://github.com/he476/preferenceTest/blob/master/images/6.JPG" width="375"/>
+
 ![image](https://github.com/he476/preferenceTest/blob/master/images/6.JPG)<br><br>
 ## 实现效果
 ![image](https://github.com/he476/preferenceTest/blob/master/images/1.png)<br><br>
